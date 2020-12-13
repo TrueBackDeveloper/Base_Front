@@ -1,0 +1,128 @@
+  @font-face 
+  {
+    font-family: Roboto; 
+    src: url(../Fonts/Roboto/Roboto-Regular.ttf); 
+  }
+  body
+  {
+    background: #0F0F0F;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .background_ellipse_1 
+  {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .background_ellipse_2 img
+  {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+  }
+  .login_form
+  {
+    position: absolute;
+    width: 600px;
+    height: 562px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: rgba(3, 3, 3, 0.88);
+    border-radius: 20px;
+  }
+  .login_form a
+  {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9B9797    ;
+  }
+  .login_form h1
+  {
+    margin-top: 55px;
+    margin-bottom: 55px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 28px;
+    color: #EBEBEB;
+    font-size: 24px;
+  }
+  .login_form input[type = "text"],.login_form input[type = "email"],.login_form input[type = "password"]
+  {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 21px;
+    font-size: 18px;
+    color: #9B9797;
+    outline: none;
+    padding: 25px ;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    transition: 0.25s;
+    border-radius: 40px;
+    width: 400px;
+    height: 70px;
+  }
+  .login_form input[type = "text"]
+  {
+    background: url(../Images/Login_and_\ Registration_Pages/User_icon.svg) no-repeat 20px 15px;
+    border: 4px solid  #053C5A;
+  }
+  .login_form input[type = "email"]
+  {
+    background: url(../Images/Login_and_\ Registration_Pages/Email.svg) no-repeat 20px 13px;
+    border: 4px solid  #053C5A;
+  }
+  .login_form input[type = "password"]
+  {
+    background: url(../Images/Login_and_\ Registration_Pages/Padlock.svg) no-repeat 20px 13px;
+    border: 4px solid  #2A055A;
+  }
+  .login_form input:focus::placeholder
+  {
+      opacity: 0;
+  }
+  .login_form input[type = "text"]:focus,.login_form input[type = "email"]:focus,.login_form input[type = "password"]:focus
+  {
+    width: 450px;
+    color: white;
+    font-size: 22px;
+  }
+  .login_form input[type = "submit"]
+  {
+    margin: 55px auto;
+    outline: none;
+    border: 0;
+    width: 201px;
+    height: 49px; 
+    display: block;
+    text-align: center;
+    background: linear-gradient(90deg, #2A055A 0%, #06486C 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #F0F0F0;
+    cursor: pointer;
+    transition: 0.35s;
+  }
+  .login_form input[type = "submit"]:hover
+  {
+    background: linear-gradient(90deg, #3c0e79 0%, #0d5880 100%);
+    transform: scale(1.05);
+  }
+  
